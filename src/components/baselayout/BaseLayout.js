@@ -3,7 +3,7 @@ import './styles/BaseLayout.css';
 import {NavLink} from 'react-router-dom';
 
 //Import Components
-import LeftSide from '../splash/Splash';
+import LeftSide from './leftside/LeftSide';
 
 class BaseLayout extends Component {
   render() {
@@ -19,7 +19,7 @@ class BaseLayout extends Component {
           </nav>
         </div>
         <div className='sideDiv'>
-          <p>This is information that I am going to display on the left side of the page.</p>
+          <LeftSide/>
         </div>
         {this.props.children}
       </div>
