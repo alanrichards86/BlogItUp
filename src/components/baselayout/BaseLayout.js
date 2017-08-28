@@ -3,7 +3,7 @@ import './styles/BaseLayout.css';
 import {NavLink} from 'react-router-dom';
 
 //Import Components
-import Splash from '../splash/Splash';
+import LeftSide from '../splash/Splash';
 
 class BaseLayout extends Component {
   render() {
@@ -18,7 +18,9 @@ class BaseLayout extends Component {
             </ul>
           </nav>
         </div>
-        <Splash/>
+        <div className='sideDiv'>
+          <p>This is information that I am going to display on the left side of the page.</p>
+        </div>
         {this.props.children}
       </div>
     );
