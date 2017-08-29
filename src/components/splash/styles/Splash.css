@@ -1,0 +1,12 @@
+.mainSplashDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
+.leftSideDiv {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+
+}

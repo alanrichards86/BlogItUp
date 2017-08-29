@@ -7,7 +7,8 @@ import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 //Import Comonents
-import Splash from './components/splash/Splash'
+import Splash from './components/splash/Splash';
+import About from './components/about/About';
 
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <BaseLayout>
       <Switch>
         <Route exact path='/' component={Splash} />
+        <Route path='/about' component={About} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>

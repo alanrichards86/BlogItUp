@@ -9,7 +9,6 @@ export default class Footer extends Component {
         <h2>This is the Footer!</h2>
       </div>
 
-
     )
   }
 }

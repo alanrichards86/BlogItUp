@@ -5,9 +5,12 @@
 
 }
       /*    Nav Bar    */
-
 nav {
-  text-align: center;
+  background-color: orange;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
 }
 
       /*  Main Section  */
@@ -15,11 +18,7 @@ nav {
   display: flex;
   height: 80vh;
 }
-.sideDiv {
-  width: 30%;
-  height: 100%;
-  background-color: purple;
-}
+
 
       /* Footer Section */
 
