@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/BaseLayout.css';
+import './BaseLayout.css';
 import {NavLink} from 'react-router-dom';
 
 //Import Components
@@ -17,6 +17,9 @@ class BaseLayout extends Component {
               </li>
               <li className="nav-item">
                 <NavLink activeStyle={{color: 'purple'}} className="nav-link active" to='/about'>About</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink activeStyle={{color: 'purple'}} className="nav-link active" to='/posts'>Users_Posts</NavLink>
               </li>
             </ul>
           </nav>

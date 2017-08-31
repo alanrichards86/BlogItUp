@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import LeftSide from './leftside/LeftSide';
 
 // Import CSS
-import './styles/Splash.css';
+import './Splash.css';
 
 export default class Splash extends Component{
 
@@ -15,10 +15,9 @@ export default class Splash extends Component{
         <div className='leftSideDiv'>
           <LeftSide />
         </div>
-
-        <h1>This is the Splash Page</h1>
-
-
+        <div className='splashSectionDiv'>
+          <h1>This is the Splash Page</h1>
+        </div>
 
       </div>
     )

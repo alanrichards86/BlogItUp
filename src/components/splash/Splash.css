@@ -7,6 +7,8 @@
   width: 20%;
   height: 100%;
   display: flex;
-  align-content: center;
-
+}
+.splashSectionDiv {
+  width: 100%;
+  text-align: center;
 }
