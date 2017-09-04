@@ -12,11 +12,15 @@ nav ul {
   display: flex;
   justify-content: center;
 }
+nav ul a {
+  padding: 5px;
+  border-radius: 20px;
+}
 
       /*  Main Section  */
 .mainSectionDiv {
   display: flex;
-  height: 80vh;
+  height: 100%;
 }
 
 
