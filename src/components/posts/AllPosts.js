@@ -23,13 +23,15 @@ export default class AllPosts extends Component {
       });
   }
   renderPosts = () => {
-    return this.state.blogData.map(blogs => {
-      console.log(blogs);
-      return <RenderPosts key={blogs.nameValue} blogs={blogs} />
-    });
+      return this.state.blogData.map(blogs => {
+        if(blogs.nameValue){
+        return <RenderPosts key={blogs.nameValue} blogs={blogs} />
+        }
+      });
+
   }
   render() {
-    console.log(this.state.blogData);
+
     return(
       <div className='mainAllPostDiv'>
         <h2>This is the All Posts Component</h2>
